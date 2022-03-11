@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: pink !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif !important;
+    background-color: #faeee7 !important;
+    border: 5px solid black;
+}
+
+.header {
+    text-align: center;
+    margin-top: 30px;;
+}
+
+h5 {text-decoration: underline;}
+
+i {color:pink;}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around; 
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+#experiences {background-color: pink;}
+#projects { background-color: pink;}
+h5 {text-decoration: underline;}
+i {color:pink;}
+.header-img {border-radius: 15px;}
+.navbar-light .navbar-brand {color: black;}
+.nav-link {color: black;}
